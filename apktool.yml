@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MK Explorer (build 2540).apk
+compressionType: false
+doNotCompress:
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.4
+versionInfo:
+  versionCode: '2540'
+  versionName: 2.5.4

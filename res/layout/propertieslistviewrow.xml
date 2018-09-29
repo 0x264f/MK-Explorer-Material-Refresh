@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="14.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:ellipsize="end" android:id="@id/singlelabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/labellayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:textColor="@color/darklabel" android:ellipsize="end" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darksublabel" android:ellipsize="end" android:id="@id/sublabel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

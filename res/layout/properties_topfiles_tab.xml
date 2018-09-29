@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressspinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="20.0sp" android:textColor="@color/darksublabel" android:gravity="center_horizontal" android:id="@id/emptytext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/searching" android:singleLine="true" android:layout_below="@id/SortBar" />
+    <ListView android:id="@id/filelistview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

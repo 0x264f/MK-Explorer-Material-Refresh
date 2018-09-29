@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/filesandfolders">
+        <CheckBoxPreference android:title="@string/showthumnails" android:key="thumbnails" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/rootaccess" android:key="rootaccess" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" android:summaryOn="@string/yesrootaccess" android:summaryOff="@string/norootaccess" />
+        <CheckBoxPreference android:title="@string/showrootdir" android:key="showrootdir" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/fullfilename" android:key="fullfilename" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/numberofelements" android:key="numberofelements" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/navigation">
+        <CheckBoxPreference android:title="@string/directlybacktohomepage" android:key="directlybacktohomepage" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/closewhengethomedir" android:key="closewhengethomedir" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" android:summaryOn="@string/closewhengethomedirsummaryon" android:summaryOff="@string/closewhengethomedirsummaryoff" />
+        <CheckBoxPreference android:title="@string/usebottomCAB" android:key="bottomCABbar" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/appearance" android:key="appearance">
+        <PreferenceScreen android:title="@string/colors" android:key="prefScreen">
+            <PreferenceCategory android:title="@string/generalcolors" android:key="generalcolors">
+                <CheckBoxPreference android:title="@string/usedarktheme" android:key="usedarktheme" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/colorednavigationbar" android:key="colorednavigationbar" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+                <Preference android:title="@string/accentcolor" android:key="accent_color" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/activefilelisttitlebar">
+                <Preference android:title="@string/barcolor" android:key="bar_color" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/inactivefilelisttitlebar">
+                <Preference android:title="@string/barcolor" android:key="inactive_bar_color" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/filelisttitlebar">
+                <Preference android:title="@string/textandiconcolor" android:key="color_bar_text" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/filelistlist">
+                <Preference android:title="@string/listcolor" android:key="activefilelist_list_background" />
+                <Preference android:title="@string/textandiconcolor" android:key="activefilelist_list_text" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/bookmarkslisttitlebar">
+                <Preference android:title="@string/imagery" android:key="bookmarks_imagery" />
+                <Preference android:title="@string/barcolor" android:key="bookmarks_color_bar" />
+                <Preference android:title="@string/textcolor" android:key="bookmarks_color_bar_text" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/bookmarkslistlist">
+                <Preference android:title="@string/listcolor" android:key="bookmarks_color_list" />
+                <Preference android:title="@string/textandiconcolor" android:key="bookmarks_color_list_text" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <Preference android:title="@string/styleicons" android:key="icons_style" />
+    <PreferenceScreen android:title="@string/titlebar">
+        <PreferenceCategory android:title="@string/filelisttitlebar">
+            <CheckBoxPreference android:title="@string/narrowactionbar" android:key="narrowactionbar" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/showviewandsortbutton" android:key="showviewandsortbutton" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/showclosebutton" android:key="showclosebutton" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/showarrowsbutton" android:key="showarrowsbutton" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/bookmarkslisttitlebar">
+            <CheckBoxPreference android:title="@string/narrowactionbar" android:key="narrowbookmarksactionbar" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/loadfolderanimation" android:key="loadfolderanimation" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/showtwowindows" android:key="showtwowindows" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/keyboardshortcuts">
+        <PreferenceScreen android:title="@string/keyboardshortcuts" android:key="keyboardshortcuts">
+            <PreferenceCategory android:title="@string/keyboardshortcuts">
+                <Preference android:title="@string/newfolder" android:summary="CTRL + N" />
+                <Preference android:title="@string/closewindow" android:summary="CTRL + Q" />
+                <Preference android:title="@string/copy" android:summary="CTRL + C" />
+                <Preference android:title="@string/move" android:summary="CTRL + X" />
+                <Preference android:title="@string/paste" android:summary="CTRL + V" />
+                <Preference android:title="@string/selectall" android:summary="CTRL + A" />
+                <Preference android:title="@string/delete" android:summary="BACKSPACE" />
+                <Preference android:title="@string/search" android:summary="CTRL + F / SEARCH KEY" />
+                <Preference android:title="@string/nextwindow" android:summary="DPAD_LEFT / DPAD_RIGHT" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other">
+        <PreferenceScreen android:title="@string/about" android:key="about">
+            <PreferenceCategory android:title="@string/about">
+                <Preference android:title="@string/version" android:summary="@string/versionnr" />
+                <Preference android:title="@string/mail" android:summary="v.m.kosolapov@outlook.com">
+                    <intent android:action="android.intent.action.VIEW" android:data="@string/contact_developer_uri" />
+                </Preference>
+                <Preference android:title="@string/translation" android:summary="@string/translatorsname" />
+                <PreferenceScreen android:title="@string/licences" android:key="licences">
+                    <PreferenceCategory android:title="@string/licences">
+                        <Preference android:title="Junrar" android:summary="https://github.com/junrar/junrar" />
+                    </PreferenceCategory>
+                </PreferenceScreen>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

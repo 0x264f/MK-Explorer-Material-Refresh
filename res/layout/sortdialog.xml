@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="20.0sp" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/titlename" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:id="@id/sortby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip">
+                    <RadioButton android:textSize="16.0sp" android:id="@id/sortbyname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/byname" />
+                    <RadioButton android:textSize="16.0sp" android:id="@id/sortbydatemodified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bydatemodified" />
+                    <RadioButton android:textSize="16.0sp" android:id="@id/sortbysize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bysize" />
+                    <RadioButton android:textSize="16.0sp" android:id="@id/sortbyextension" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/byextension" />
+                </RadioGroup>
+                <CheckBox android:textSize="16.0sp" android:id="@id/reverseorder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/reverseorder" />
+                <CheckBox android:textSize="16.0sp" android:id="@id/folderfirst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/foldersfirst" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+        <pl.mkexplorer.kormateusz.Button_Roboto_Medium android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/negativebutton" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minWidth="64.0dip" android:textAllCaps="true" />
+        <pl.mkexplorer.kormateusz.Button_Roboto_Medium android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/positivebutton" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:minWidth="64.0dip" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

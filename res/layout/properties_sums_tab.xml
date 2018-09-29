@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/md5tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" custom:titleText="MD5" custom:subText="@string/taptocalculate" />
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/md5copy" android:background="@drawable/dark_ripple_borderless" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/ic_content_copy_black_24dp" android:contentDescription="@string/copy" />
+            </LinearLayout>
+            <EditText android:enabled="false" android:id="@id/md5edittext" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:hint="@string/pastetocompare" android:singleLine="true" />
+            <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="12.0sp" android:ellipsize="end" android:id="@id/md5errorlabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" />
+            <View android:id="@id/divider" android:background="@color/darkdivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/sha1tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" custom:titleText="SHA1" custom:subText="@string/taptocalculate" />
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/sha1copy" android:background="@drawable/dark_ripple_borderless" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/ic_content_copy_black_24dp" android:contentDescription="@string/copy" />
+            </LinearLayout>
+            <EditText android:enabled="false" android:id="@id/sha1edittext" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" android:hint="@string/pastetocompare" android:singleLine="true" />
+            <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="12.0sp" android:ellipsize="end" android:id="@id/sha1errorlabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

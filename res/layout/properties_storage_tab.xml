@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+                <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:id="@id/sizetxt" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/total" />
+                <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="32.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/totalsizetv" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/calculating" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/memorybar" android:background="#ffd0d0d0" android:layout_width="250.0dip" android:layout_height="32.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+                    <TableRow android:id="@id/appsbar" android:background="@color/apk_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/documentsbar" android:background="@color/doc_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/sheetsbar" android:background="@color/xls_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/presentationsbar" android:background="@color/ppt_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/pdfsbar" android:background="@color/pdf_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/textsbar" android:background="@color/text_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/imagesbar" android:background="@color/image_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/videosbar" android:background="@color/video_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/booksbar" android:background="@color/book_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/musicbar" android:background="@color/music_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/archivesbar" android:background="@color/archive_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                    <TableRow android:id="@id/anotherbar" android:background="@color/noname_icon" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/usedfreebar" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:id="@id/usedtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/used" />
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="18.0sp" android:textColor="@color/darksublabel" android:gravity="center_vertical" android:id="@id/usedsizetv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:id="@id/freetxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/free1" />
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="18.0sp" android:textColor="@color/darksublabel" android:gravity="center_vertical" android:id="@id/freesizetv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider" android:background="@color/darkdivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/typetv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/type1" custom:setIcon="@drawable/ic_phone_android_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/fullpathtv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/fullpath" custom:setIcon="@drawable/ic_link_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/moddatetv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/moddate" custom:setIcon="@drawable/ic_event_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/permissionstv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" custom:titleText="@string/permissions" custom:setIcon="@drawable/ic_people_black_48dp" custom:smallIcon="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

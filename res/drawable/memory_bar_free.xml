@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/free_memory">
+        <shape android:color="#ffcc0000">
+            <solid android:color="#ffcc0000" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+</layer-list>

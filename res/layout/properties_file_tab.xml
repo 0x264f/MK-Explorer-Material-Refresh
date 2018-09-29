@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/sizetv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/size" custom:setIcon="@drawable/ic_straighten_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/typetv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/type1" custom:setIcon="@drawable/ic_insert_drive_file_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/fullpathtv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/fullpath" custom:setIcon="@drawable/ic_link_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/moddatetv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/moddate" custom:setIcon="@drawable/ic_event_black_48dp" custom:smallIcon="true" />
+            <pl.mkexplorer.kormateusz.Properties_Icon_Element android:id="@id/permissionstv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" custom:titleText="@string/permissions" custom:setIcon="@drawable/ic_people_black_48dp" custom:smallIcon="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

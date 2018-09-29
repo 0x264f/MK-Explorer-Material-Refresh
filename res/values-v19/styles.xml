@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BugReportTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ff37474f</item>
+        <item name="colorPrimaryDark">#ff263238</item>
+        <item name="colorAccent">#ff1565c0</item>
+    </style>
+    <style name="GalleryTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/secondaccentdark</item>
+    </style>
+    <style name="MusicPlayerTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#ffe0e0e0</item>
+        <item name="colorPrimaryDark">#ffb2b2b2</item>
+        <item name="colorAccent">#ffffffff</item>
+    </style>
+    <style name="MyCustomTabLayout" parent="@style/Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+    <style name="MyCustomTextAppearance" parent="@style/TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="MySettingsMainActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff263238</item>
+        <item name="android:height">56.0dip</item>
+    </style>
+    <style name="MyThemeDark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">#ff455a64</item>
+        <item name="colorPrimaryDark">#ff263238</item>
+        <item name="colorAccent">@color/secondaccentdark</item>
+    </style>
+    <style name="MyThemeLight" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">#ff455a64</item>
+        <item name="colorPrimaryDark">#ff263238</item>
+        <item name="colorAccent">@color/secondaccentlight</item>
+    </style>
+    <style name="PopUpWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_show</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_hide</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MySettingsMainActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/hideindicator</item>
+    </style>
+    <style name="TextEditorTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">#ffe0e0e0</item>
+        <item name="colorPrimaryDark">#ffb2b2b2</item>
+        <item name="colorAccent">#ffb2b2b2</item>
+    </style>
+    <style name="WelcomeTheme" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+    <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="navigationIcon">?homeAsUpIndicator</item>
+    </style>
+    <style name="splashScreenTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_drawable</item>
+    </style>
+</resources>

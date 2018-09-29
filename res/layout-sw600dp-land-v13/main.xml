@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layoutright" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layoutleft" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                    <LinearLayout android:id="@id/linearlayoutbookmarksleft" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <fragment android:tag="bookleft1" android:layout_width="300.0dip" android:layout_height="fill_parent" class="pl.mkexplorer.kormateusz.BookmarksLeft" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                        <LinearLayout android:id="@id/linearlayoutfileleft" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <fragment android:tag="fileleft" android:layout_width="fill_parent" android:layout_height="fill_parent" class="pl.mkexplorer.kormateusz.FileLeft" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/linearlayoutfileright" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <fragment android:tag="fileright" android:layout_width="fill_parent" android:layout_height="fill_parent" class="pl.mkexplorer.kormateusz.FileRight" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <fragment android:layout_gravity="start" android:id="@id/drawer_listleft" android:tag="bookleft" android:layout_width="306.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" class="pl.mkexplorer.kormateusz.BookmarksLeft" />
+            </android.support.v4.widget.DrawerLayout>
+            <fragment android:layout_gravity="end" android:tag="bookright" android:layout_width="306.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" class="pl.mkexplorer.kormateusz.BookmarksRight" />
+        </android.support.v4.widget.DrawerLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/StatusBarKitKat" android:background="@color/transparentStatusBarColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+</RelativeLayout>

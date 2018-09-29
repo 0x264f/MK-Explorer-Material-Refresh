@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/StatusBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/IconBar" android:layout_width="fill_parent" android:layout_height="@dimen/bookmarksiconbarheight" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/avatar_white" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/snackbar" android:background="@drawable/header_icon_snackbar" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="68.0dip" android:layout_marginLeft="24.0dip">
+                <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="14.0sp" android:textColor="@color/lightlabel" android:layout_gravity="center_vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/tapavatartochange" android:maxLines="2" android:textAllCaps="false" />
+                <Button android:textSize="14.0sp" android:textColor="#ffffea00" android:layout_gravity="center_vertical" android:id="@id/snackbar_ok" android:background="@drawable/light_ripple_border" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="48.0dip" android:layout_height="36.0dip" android:text="@string/ok" android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/NameBar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/bookmarkstext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmarks" android:textAllCaps="false" />
+        </LinearLayout>
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ActionBarSmall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:cropToPadding="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/StatusBarSmall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/IconBarSmall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/avatarSmall" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/avatar_white" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/snackbarSmall" android:background="@drawable/header_icon_snackbar" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/actionbar" android:layout_marginLeft="24.0dip">
+                <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="14.0sp" android:textColor="@color/lightlabel" android:layout_gravity="center_vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/tapavatartochange" android:maxLines="2" android:textAllCaps="false" />
+                <Button android:textSize="14.0sp" android:textColor="#ffffea00" android:layout_gravity="center_vertical" android:id="@id/snackbar_okSmall" android:background="@drawable/light_ripple_border" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="48.0dip" android:layout_height="36.0dip" android:text="@string/ok" android:textAllCaps="true" />
+            </LinearLayout>
+            <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/bookmarkstextSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/bookmarks" android:textAllCaps="false" />
+        </LinearLayout>
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

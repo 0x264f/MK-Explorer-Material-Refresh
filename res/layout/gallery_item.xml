@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <pl.mkexplorer.kormateusz.TouchImageView android:layout_gravity="center" android:id="@id/imgDisplay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@string/desc" />
+    </LinearLayout>
+    <ImageView android:id="@id/playButton" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/play_video" android:layout_centerInParent="true" android:contentDescription="@string/image" />
+</RelativeLayout>

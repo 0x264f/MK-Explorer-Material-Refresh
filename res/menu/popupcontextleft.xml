@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group1">
+        <item android:id="@id/openlocation" android:title="@string/openfilelocation" />
+        <item android:id="@id/extractaszip" android:title="@string/extractaszip" />
+        <item android:id="@id/extractzip" android:title="@string/extract" />
+        <item android:id="@id/extractrar" android:title="@string/extract" />
+        <item android:id="@id/setasringtone" android:visible="false" android:title="@string/setasringtone" />
+        <item android:id="@id/setas" android:visible="false" android:title="@string/setas" />
+        <item android:id="@id/openas" android:title="@string/openas" />
+        <item android:id="@id/opennextto" android:title="@string/opennexttoright" />
+        <item android:id="@id/addbookmark" android:title="@string/addbookmark" />
+        <item android:id="@id/move" android:title="@string/move" />
+        <item android:id="@id/copy" android:title="@string/copy" />
+        <item android:id="@id/delete" android:title="@string/delete" />
+        <item android:id="@id/rename" android:title="@string/rename" />
+        <item android:id="@id/send" android:title="@string/send" />
+        <item android:id="@id/compress" android:title="@string/compress" />
+        <item android:id="@id/setashome" android:title="@string/setashome" />
+        <item android:id="@id/createshortcut" android:title="@string/createshortcut" />
+        <item android:id="@id/hide" android:title="@string/hide" />
+        <item android:id="@id/show" android:visible="false" android:title="@string/show" />
+        <item android:id="@id/unmount" android:title="@string/unmount" />
+        <item android:id="@id/properties" android:title="@string/properties" />
+    </group>
+</menu>

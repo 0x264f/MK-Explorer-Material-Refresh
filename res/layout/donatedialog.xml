@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.mkexplorer.kormateusz.TextView_Roboto_Medium android:textSize="20.0sp" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/titlename" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:gravity="fill_horizontal" android:id="@id/donationdescription" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:scrollHorizontally="true" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/minimaldonation" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:textAllCaps="false" />
+                <Button android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/mediumdonation" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:textAllCaps="false" />
+                <Button android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/largedonation" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:textAllCaps="false" />
+                <Button android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/hugedonation" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:textAllCaps="false" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+        <pl.mkexplorer.kormateusz.Button_Roboto_Medium android:textSize="14.0sp" android:textColor="?colorAccent" android:id="@id/positivebutton" android:background="@drawable/light_ripple_border" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:minWidth="64.0dip" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

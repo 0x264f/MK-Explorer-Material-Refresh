@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="ButtonPathWithoutDrawerButtonAndSmallbarMargin">6.0dip</dimen>
+    <dimen name="actionbar">48.0dip</dimen>
+    <dimen name="backbuttonleftmargin">4.0dip</dimen>
+    <dimen name="bookmarksactionbarheight">140.0dip</dimen>
+    <dimen name="bookmarksiconbarheight">75.0dip</dimen>
+    <dimen name="drawericonheight">48.0dip</dimen>
+    <dimen name="drawericonwidth">56.0dip</dimen>
+    <dimen name="loweractionbar">64.0dip</dimen>
+    <dimen name="menupaddingleft">8.0dip</dimen>
+    <dimen name="menuwidth">40.0dip</dimen>
+    <dimen name="searchbuttonrightmargin">0.0dip</dimen>
+</resources>

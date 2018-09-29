@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/opennexttozakladki" android:title="@string/opennexttoright" android:checkable="false" />
+    <item android:id="@id/deletezakladki" android:title="@string/deletefrombookmarks" />
+    <item android:id="@id/renamezakladki" android:title="@string/edit" />
+    <item android:id="@id/propertieszakladki" android:title="@string/properties" />
+</menu>

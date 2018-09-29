@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/pagerwelcome" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:enabled="false" android:id="@id/back" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/previous" android:layout_weight="1.0" />
+        <Button android:id="@id/done" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/next" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageButton android:id="@id/fab" android:background="@drawable/fab_button" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/forward_white" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/desc" />
+</RelativeLayout>

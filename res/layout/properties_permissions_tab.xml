@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="200.0dip" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip">
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_weight="1.0" />
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/rtxt" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="R" android:layout_weight="1.0" />
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/wtxt" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="W" android:layout_weight="1.0" />
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="16.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/xtxt" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="X" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:gravity="center_horizontal" android:id="@id/usertxt" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="User" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/userread" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/userwrite" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/userexecute" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:gravity="center_horizontal" android:id="@id/grouptxt" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Group" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/groupread" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/groupwrite" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/groupexecute" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/other" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:gravity="center_horizontal" android:id="@id/othertxt" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Other" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/otherread" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/otherwrite" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                    <CheckBox android:layout_gravity="center" android:id="@id/otherexecute" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider" android:background="@color/darkdivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="14.0sp" android:textColor="@color/darklabel" android:id="@id/chmodnumbertxt" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="CHMOD" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="32.0sp" android:textColor="@color/darklabel" android:gravity="center_vertical" android:id="@id/tempchmodnumber" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="000" />
+                        <pl.mkexplorer.kormateusz.TextView_Roboto_Regular android:textSize="32.0sp" android:textColor="@color/darksublabel" android:gravity="center_vertical" android:id="@id/chmodnumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="000" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:enabled="false" android:textColor="@android:color/white" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:text="@string/change" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

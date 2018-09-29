@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ButtonPathWithoutDrawerButtonAndSmallbarMargin">24.0dip</dimen>
+    <dimen name="actionbar">64.0dip</dimen>
+    <dimen name="backbuttonleftmargin">8.0dip</dimen>
+    <dimen name="bookmarksactionbarheight">128.0dip</dimen>
+    <dimen name="bookmarksiconbarheight">63.0dip</dimen>
+    <dimen name="drawericonheight">64.0dip</dimen>
+    <dimen name="drawericonwidth">64.0dip</dimen>
+    <dimen name="loweractionbar">64.0dip</dimen>
+    <dimen name="menupaddingleft">0.0dip</dimen>
+    <dimen name="menuwidth">48.0dip</dimen>
+    <dimen name="searchbuttonrightmargin">8.0dip</dimen>
+</resources>

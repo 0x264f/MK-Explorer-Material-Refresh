@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deviceOrientationTextEditor">vertical</string>
+    <string name="devicetype">tablet7</string>
+    <string name="type">tablet10</string>
+    <string name="typepath">tablet10</string>
+</resources>

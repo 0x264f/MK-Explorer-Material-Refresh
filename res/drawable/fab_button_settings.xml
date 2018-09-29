@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/fab_surface">
+        <shape android:shape="oval" android:color="#ff00796b">
+            <size android:height="48.0dip" android:width="48.0dip" />
+            <solid android:color="#ff00796b" />
+        </shape>
+    </item>
+</layer-list>

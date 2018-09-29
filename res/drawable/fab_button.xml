@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/fab_shadow" android:top="3.0dip">
+        <shape android:shape="oval">
+            <size android:height="48.0dip" android:width="48.0dip" />
+            <gradient android:startColor="#ff000000" android:endColor="#00000000" android:type="radial" android:gradientRadius="72.0" android:centerColor="#ff000000" />
+            <padding android:left="6.0dip" android:top="6.0dip" android:right="6.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item android:id="@id/fab_surface">
+        <shape android:shape="oval" android:color="#ff00796b">
+            <solid android:color="#ff00796b" />
+        </shape>
+    </item>
+</layer-list>

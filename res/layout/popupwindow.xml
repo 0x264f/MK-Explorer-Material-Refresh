@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/popupwindowlayout" android:background="@drawable/menubcg_light" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/viewbutton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/view_dark" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/sortbutton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/sort_dark" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/closebutton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/close_dark" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+    </LinearLayout>
+    <ListView android:id="@id/listview" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

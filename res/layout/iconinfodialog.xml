@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:gravity="fill_horizontal" android:id="@id/filelist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:scrollHorizontally="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/phone" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="phone.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/sdcard" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="sdcard.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/usb" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="usb.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/bin" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="bin.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/folder" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="folder.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/folder_noaccess" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="folder_noaccess.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/folder_rootaccess" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="folder_rootaccess.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/doc" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="doc.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/xls" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="xls.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ppt" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="ppt.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/text" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="text.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/music" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="music.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/apk" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="apk.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/pdf" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="pdf.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/image" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="image.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/video" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="video.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/archive" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="archive.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/book" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="book.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/html" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="html.png" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/noname" />
+                <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="2.0dip" android:text="noname.png" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

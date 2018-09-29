@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/done_white" android:id="@id/chooseselected" android:title="@string/choose" app:showAsAction="always" />
+    <item android:icon="@drawable/delete_white" android:id="@id/delete" android:title="@string/delete" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/copy_white" android:id="@id/copy" android:title="@string/copy" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/move_white" android:id="@id/move" android:title="@string/move" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/compress_white" android:id="@id/compress" android:title="@string/compress" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/selectall_white" android:id="@id/selectall" android:title="@string/selectall" app:showAsAction="never" />
+    <item android:id="@id/sendall" android:title="@string/send" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_info_white_24dp" android:id="@id/properties" android:title="@string/properties" app:showAsAction="never" />
+</menu>
