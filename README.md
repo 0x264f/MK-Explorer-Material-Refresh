@@ -1,4 +1,4 @@
-# MK-Explorer-Material-Refresh
+# MK Explorer: Material Refresh
 <img src="/Preview/Icon.png" align="left" width="105" hspace="10" vspace="10">
 
 <br>_**Fork of the МК Explorer app with Android O Material Design.**_<br/> The development of the <a href="https://play.google.com/store/apps/details?id=pl.mkexplorer.kormateusz">original</a> application was stopped 2 years ago and the source code was not released. This repository contains the modifications that I made over the application and the binary packages that I builded for myself.
