@@ -25,4 +25,4 @@
   - WAKE_LOCK - need to properly perform operations on files when the screen is off
 
 # Download
-[![Get Apk From GitHub](/Preview/GitHub.png)](https://github.com/0x264f/Omich-Notes-Material-Refresh/releases/latest)
+[![Get Apk From GitHub](/Preview/GitHub.png)](https://github.com/0x264f/MK-Explorer-Material-Refresh/releases/latest)
