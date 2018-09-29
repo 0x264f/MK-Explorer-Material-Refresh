@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/ic_shortcut_s" android:enabled="true" android:shortcutId="static1" android:shortcutShortLabel="@string/shortcut_label_1">
+        <intent android:targetPackage="pl.mkexplorer.kormateusz" android:action="android.intent.action.VIEW" android:targetClass="pl.mkexplorer.kormateusz.Settings" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_shortcut_h" android:enabled="true" android:shortcutId="static2" android:shortcutShortLabel="@string/shortcut_label_2">
+        <intent android:targetPackage="pl.mkexplorer.kormateusz" android:action="android.intent.action.VIEW" android:targetClass="pl.mkexplorer.kormateusz.MKexplorerActivity" />
+    </shortcut>
+</shortcuts>

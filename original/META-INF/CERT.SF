@@ -1,5 +1,5 @@
 Signature-Version: 1.0
-SHA1-Digest-Manifest: eJUjcNnf0/GhsA16L99K2WXK47k=
+SHA1-Digest-Manifest: nWj18EKvVXxI3xHGp27i/Bllvs4=
 Created-By: 1.0 (Android SignApk)
 
 Name: res/drawable-mdpi-v4/back_dark.png
@@ -180,6 +180,9 @@ SHA1-Digest: 4nH0XK5rb70dFpSIrFzPvY5V8Xk=
 Name: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.
  png
 SHA1-Digest: pS4B/Hx7iuOl2Fpz9hZQU/VB+Ps=
+
+Name: res/mipmap-hdpi-v4/ic_shortcut_h.png
+SHA1-Digest: MO4W1WrZgyuFVr2QXw8daIUgCMg=
 
 Name: res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
 SHA1-Digest: PKSLOGyYURX84CGiQ2+aw2P0vf8=
@@ -886,7 +889,7 @@ Name: res/layout/howtoshowhiddenfilesdialog.xml
 SHA1-Digest: leG8aVUWN38aMonq7M84ErRJ0e4=
 
 Name: AndroidManifest.xml
-SHA1-Digest: WP/PYQB65KhUQB+TxYbwmVWDQJw=
+SHA1-Digest: FjPZ95FFiQefc8UhOtjA/wsQ+Rc=
 
 Name: res/drawable-hdpi-v4/rightcaret_white.png
 SHA1-Digest: 302i+TdwvLz3K9lZxhEyDaZ2zYA=
@@ -1752,7 +1755,7 @@ Name: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 SHA1-Digest: OaiFXSiJUWpwH4XKZfMuGT4thjQ=
 
 Name: resources.arsc
-SHA1-Digest: zCiBqGYRmQb9qgXSe47Owvr/iUY=
+SHA1-Digest: oOdFgBcesXYEk5Rqa0GG+2M/o2I=
 
 Name: res/drawable-xxhdpi-v4/actionbar_shadow.png
 SHA1-Digest: HTa9WggWrlR9mIF/2/ZYK30XdPg=
@@ -2576,6 +2579,9 @@ SHA1-Digest: WGYrHc+JD+5v8gr5tQWsKeqqgFw=
 Name: res/drawable-hdpi-v4/ic_straighten_white_48dp.png
 SHA1-Digest: zXjtOJHeD6eF7OqKNe+uzWMK1Mk=
 
+Name: res/xml/shortcuts.xml
+SHA1-Digest: 0BMtMnfEDZN8zg2/PxmU5zfVQP8=
+
 Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
 SHA1-Digest: ut0KEyBfCe1FO7VuAZWqJIHC75c=
 
@@ -2951,6 +2957,9 @@ SHA1-Digest: UnrNY4WubkAKv8Kuic9+0fHlxk4=
 Name: res/drawable-hdpi-v4/rootinfowhite_normal.png
 SHA1-Digest: SpSgKih9BKPoJxcY4rvf+TpVSPY=
 
+Name: res/xml-v22/shortcuts.xml
+SHA1-Digest: FBa5YPKgPkTYasLwBb6h1xzNY7U=
+
 Name: res/drawable-nodpi-v4/pdf_mtd.png
 SHA1-Digest: aeKuPxeL1ipGoZOVOfF0OHPCwVs=
 
@@ -3152,6 +3161,9 @@ SHA1-Digest: JBkiJFUUhGBYQj0/AgcftZhDxoE=
 
 Name: res/layout/abc_screen_content_include.xml
 SHA1-Digest: jO0pkhza/Y0Y1/dRLK0GeptlcAk=
+
+Name: res/mipmap-hdpi-v4/ic_shortcut_s.png
+SHA1-Digest: 4OahQSKDC4ta41SLKTibtJMRthE=
 
 Name: res/drawable-xxhdpi-v4/folder_light.png
 SHA1-Digest: dMhH0r2ZS+P9Vlzb1ulg3E2IZpg=

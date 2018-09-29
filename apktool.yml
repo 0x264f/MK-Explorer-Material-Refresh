@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: MK Explorer (build 2540).apk
+apkFileName: MK Explorer (build 2550).apk
 compressionType: false
 doNotCompress:
 - png
@@ -17,7 +17,7 @@ usesFramework:
   ids:
   - 1
   tag: null
-version: 2.5.4
+version: 2.5.5
 versionInfo:
-  versionCode: '2540'
-  versionName: 2.5.4
+  versionCode: '2550'
+  versionName: 2.5.5

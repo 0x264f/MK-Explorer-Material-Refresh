@@ -321,7 +321,7 @@ If none of these options work you have to update your system to a higher version
     <string name="yesrootaccess">You have root access</string>
     <string name="attachlogs">Attach LOGs</string>
     <string name="attachmounts">Attach \"mounts\" file</string>
-    <string name="bugreportinformation">Please, describe step by step what does not work and how to recreate a bug (at least 10 characters). Write in Polish or English. I do not understand other languages and I am not going to use Google Translate. Do not send me empty messages and LOGs without description, I will ignore it.</string>
+    <string name="bugreportinformation">Please, describe step by step what does not work and how to recreate a bug (at least 10 characters). Write in English. I do not understand other languages and I am not going to use Google Translate. Do not send me empty messages and LOGs without description, I will ignore it.</string>
     <string name="cannotplay">Cannot play</string>
     <string name="cannotset">Cannot set</string>
     <string name="cannotsetringtone">Cannot set the ringtone</string>
@@ -349,5 +349,7 @@ If none of these options work you have to update your system to a higher version
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="contact_developer_uri">mailto:v.m.kosolapov@outlook.com</string>
     <string name="desc">image</string>
-    <string name="versionnr">2.5.4</string>
+    <string name="versionnr">2.5.5</string>
+    <string name="shortcut_label_1">Settings</string>
+    <string name="shortcut_label_2">Home Directory</string>
 </resources>

@@ -335,4 +335,6 @@
     <string name="recyclebin">Корзина</string>
     <string name="recyclebinisempty">Корзина пуста</string>
     <string name="userecyclebin">Использовать корзину</string>
+    <string name="shortcut_label_1">Настройки</string>
+    <string name="shortcut_label_2">Домашний каталог</string>
 </resources>

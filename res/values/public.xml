@@ -621,12 +621,14 @@
     <public type="drawable" name="ic_skip_next_white_24dp" id="0x7f0200da" />
     <public type="drawable" name="ic_skip_previous_white_24dp" id="0x7f0200db" />
     <public type="mipmap" name="main_icon" id="0x7f030001" />
-    <public type="mipmap" name="APKTOOL_DUMMY_6" id="0x7f030006" />
+    <public type="mipmap" name="APKTOOL_DUMMY_6" id="0x7f030008" />
     <public type="mipmap" name="gallery_icon" id="0x7f030000" />
     <public type="mipmap" name="music_icon" id="0x7f030002" />
     <public type="mipmap" name="texteditor_icon" id="0x7f030003" />
     <public type="mipmap" name="ic_background" id="0x7f030004" />
     <public type="mipmap" name="ic_foreground" id="0x7f030005" />
+    <public type="mipmap" name="ic_shortcut_s" id="0x7f030006" />
+    <public type="mipmap" name="ic_shortcut_h" id="0x7f030007" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001" />
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f040002" />
@@ -771,6 +773,7 @@
     <public type="anim" name="slide_to_right" id="0x7f050021" />
     <public type="anim" name="stay_still" id="0x7f050022" />
     <public type="xml" name="preferences" id="0x7f060000" />
+    <public type="xml" name="shortcuts" id="0x7f060001" />
     <public type="string" name="abc_action_bar_home_description" id="0x7f070000" />
     <public type="string" name="abc_action_bar_home_description_format" id="0x7f070001" />
     <public type="string" name="abc_action_bar_home_subtitle_description_format" id="0x7f070002" />
@@ -1104,6 +1107,8 @@
     <public type="string" name="contact_developer_uri" id="0x7f07014a" />
     <public type="string" name="desc" id="0x7f07014b" />
     <public type="string" name="versionnr" id="0x7f07014c" />
+    <public type="string" name="shortcut_label_1" id="0x7f07014d" />
+    <public type="string" name="shortcut_label_2" id="0x7f07014e" />
     <public type="bool" name="abc_allow_stacked_button_bar" id="0x7f080000" />
     <public type="bool" name="abc_action_bar_embed_tabs_pre_jb" id="0x7f080001" />
     <public type="bool" name="abc_config_allowActionMenuItemTextWithIcon" id="0x7f080002" />

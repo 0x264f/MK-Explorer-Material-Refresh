@@ -180,6 +180,9 @@ Name: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.
  png
 SHA1-Digest: uGSjtXNG1/NqmrhFrpnN+cLdEHs=
 
+Name: res/mipmap-hdpi-v4/ic_shortcut_h.png
+SHA1-Digest: 92Ti+5h8wfp88hbZxQZtmgAMLmU=
+
 Name: res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
 SHA1-Digest: qyhDDwmBTVUNPDXMA9GdInHwoCo=
 
@@ -885,7 +888,7 @@ Name: res/layout/howtoshowhiddenfilesdialog.xml
 SHA1-Digest: w8lAgXkAGoyl7a1uhFVypz7wCKM=
 
 Name: AndroidManifest.xml
-SHA1-Digest: LLstT7TyFWVLKut566G/jzfTihI=
+SHA1-Digest: DKtj+Dsdzzb+GUiEt7SuL1lB1MY=
 
 Name: res/drawable-hdpi-v4/rightcaret_white.png
 SHA1-Digest: jO8ItBJ8ZabRrVRHrEzUHufMtKE=
@@ -1751,7 +1754,7 @@ Name: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 SHA1-Digest: hLDouoWL7HAYB0e4/tnvxihrDoc=
 
 Name: resources.arsc
-SHA1-Digest: 0RgjAkF7xHixCZ5MGyR3Q5YBHIk=
+SHA1-Digest: /v1seiTkzfKf9CQYf7/Bo2fTUxI=
 
 Name: res/drawable-xxhdpi-v4/actionbar_shadow.png
 SHA1-Digest: 46AP94isK6dWuU7jJluPyb4nqZU=
@@ -2575,6 +2578,9 @@ SHA1-Digest: Sc4WGY4bik/tH+6jbPS9hNwcAAI=
 Name: res/drawable-hdpi-v4/ic_straighten_white_48dp.png
 SHA1-Digest: wbJ+fEe6p9lZXLUmNYvYrE3yN9o=
 
+Name: res/xml/shortcuts.xml
+SHA1-Digest: mbniPBKaXXb8zuugvSN/1aaTc2k=
+
 Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
 SHA1-Digest: uHWtZOTBwIKGuUJDyEUY91GoWKE=
 
@@ -2950,6 +2956,9 @@ SHA1-Digest: w0X64l+hjykdV/qc3vUM2QBthbM=
 Name: res/drawable-hdpi-v4/rootinfowhite_normal.png
 SHA1-Digest: BaHAw4aRUEv6xkXNTmxS+/U16FA=
 
+Name: res/xml-v22/shortcuts.xml
+SHA1-Digest: Zp9OgYotZl+lLPajP+Mw14gCIwY=
+
 Name: res/drawable-nodpi-v4/pdf_mtd.png
 SHA1-Digest: ABmCR50Y6oXEfD46KN9u4V8xwLc=
 
@@ -3151,6 +3160,9 @@ SHA1-Digest: QBQTzjKYMop5pr2TIxdapYVZxhk=
 
 Name: res/layout/abc_screen_content_include.xml
 SHA1-Digest: AIEHfioDTF1nogUBeTGUyyxcz7Q=
+
+Name: res/mipmap-hdpi-v4/ic_shortcut_s.png
+SHA1-Digest: RZfBGzH0aLSU4uK3m/EquYujVkk=
 
 Name: res/drawable-xxhdpi-v4/folder_light.png
 SHA1-Digest: F0wfQl0Ru8rQ0SNm7NT0vHa3s0g=
