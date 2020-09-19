@@ -25,4 +25,4 @@
   - WAKE_LOCK - need to properly perform operations on files when the screen is off
 
 ### Download
-[<img src="/Preview/GetApk.png" alt="Get Apk From GitHub" height="74">](https://github.com/0x264f/MK-Explorer-Material-Refresh/releases/latest)
+[<img src="/Preview/GetApk.png" alt="Get Apk From GitHub" height="74">](https://github.com/vladimirkosolapov/MK-Explorer-Material-Refresh/releases/latest)
